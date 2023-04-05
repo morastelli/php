@@ -25,9 +25,10 @@
 <body>
 
     <?php
-
+        $nome = $_POST["nome"];
         $valor = $_POST["valor"];
 
+        echo($nome);
         for($x=1;$x<=10;$x++)
         {
             if($x%2 == 0)
